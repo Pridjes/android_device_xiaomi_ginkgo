@@ -209,6 +209,40 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
+# Display (hardware) - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|f05f06b6cb09549ed9dac7afa81033438c19511f
+vendor/lib64/hw/gralloc.trinket.so|4f2246014ec4d00506def98e277ff5f06cb095b8
+vendor/lib64/hw/hwcomposer.trinket.so|40bfbe010a197f039a780e49d742585c68d036eb
+vendor/lib64/hw/memtrack.trinket.so|3c914168dafe51559398233220b1e945c620d361
+vendor/lib64/libdisplaydebug.so|cba89825060c3a5d8cca865a0f90ae235f35c484
+vendor/lib64/libdisplayqos.so|1337ca12244f40332e5b6c40640c0ebffa0ebb0f
+vendor/lib64/libdpps.so|1f035dd0d42efbfb64349d7849f9f482e5c0287d
+vendor/lib64/libgpu_tonemapper.so|696df3620932d1e32ddd6eec400d07f924c2860e
+vendor/lib64/libgralloccore.so|7a311dc273d732e1e97c07fcba9e5695c1206ecf
+vendor/lib64/libgrallocutils.so|1c0edeeb276ab2b8ca3c5c4507980166d760f8c5
+vendor/lib64/libqdMetaData.so|2b89c6e528ed04330dfca6a6e4a03e0bd41b15d7
+vendor/lib64/libdrmutils.so|aba05535386340dc1ae9939b0d1b068ef3f4770a
+vendor/lib64/libsdedrm.so|887ce5e5e3ac9c4272a0c1d025c443dabb6283b2
+vendor/lib64/libsdmcore.so|bbe8795ed19c979778284bfde241fcebe3a4268c
+vendor/lib64/libsdmutils.so|76a806142a2bbaf521074e34c6c97b8d6eeab4f4
+vendor/lib64/libsdm-colormgr-algo.so|8b122d863a2e7b0437cc94325bee83fa27fd20ec
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so|3acf758a3da0748c7a9081c4bfdedea604f988df
+vendor/lib/hw/gralloc.trinket.so|86ed997e048911d1f1ad0d294e63c026f6a7da7e
+vendor/lib/hw/hwcomposer.trinket.so|16cc9b291f3c467eb0bce739366cdaecdc247ebf
+vendor/lib/hw/memtrack.trinket.so|4510d9426a2c46be1a12f6506849cee90d9b145f
+vendor/lib/libdisplaydebug.so|780ed86ba367b8bb3ae8eebfe90c666032b59895
+vendor/lib/libdisplayqos.so|097a0921d624c374735aef290b66f2429d7d6cd2
+vendor/lib/libdpps.so|50bed8a4bbe2fb0130abfb5711d4b7648a88dbe5
+vendor/lib/libgpu_tonemapper.so|7f95fff8fe716bdb44b19c2e6431f9d4da5dfd67
+vendor/lib/libgralloccore.so|9ee907eeac3a5d368118f303741951448d7ea63e
+vendor/lib/libgrallocutils.so|ed1b10bf46ba1aeeadbc934a841fe086066a7f3c
+vendor/lib/libqdMetaData.so|20dd810433090672d09cac53d4a7f60cc045f0c9
+vendor/lib/libdrmutils.so|3e6c56adf40472e2aa34adcf302d360e642260d1
+vendor/lib/libsdedrm.so|04d0f723196d677ba1f3812ead00f3913e82feb0
+vendor/lib/libsdmcore.so|504c334480182679f18e1fb5ecb7e96ac2ec520d
+vendor/lib/libsdmutils.so|1566fb42ec6532df23115d42e73a27132d316b54
+vendor/lib/libsdm-colormgr-algo.so|4ac39b3a84a8daaf2f7956e8b81f574fc9b83c86
+
 # DPM - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 framework/tcmclient.jar|a55e6981795bf74b3249c5e7297ea4e3cf1dea83
@@ -367,55 +401,71 @@ vendor/lib64/vendor.qti.gnss@2.1.so|a395bb7d4df874c0e0efadf8ef51d3510afedad3
 vendor/lib64/vendor.qti.gnss@3.0-service.so|947bfafbf110d70656f434ab5845b6691b6b61c1
 vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 
-# Graphics - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/egl/eglSubDriverAndroid.so|930b9765626da6454c010596af51c01a40967d63
-vendor/lib/egl/libEGL_adreno.so|8ca78d3373e0481b0562f93a6629a7b9a0bc1ad5
-vendor/lib/egl/libGLESv1_CM_adreno.so|74e1a229517e44bf6f1f37f314d8561bee8f5d0a
-vendor/lib/egl/libGLESv2_adreno.so|0a82696149a0396732d1542502e8c9cfbe9f6b84
-vendor/lib/egl/libQTapGLES.so|ace68d6e0d2c4e6f395ab542f939a4b3e027a0cd
-vendor/lib/egl/libq3dtools_adreno.so|c28bfb4e627e62e6b041fade66d18632ed10d0f7
-vendor/lib/egl/libq3dtools_esx.so|9f9a65d2f39f8bbadf9e8f19bfb22a45319514a7
-vendor/lib/libC2D2.so|aec13c4cf2f766cbff060e8edfa5d465135d7c35
-vendor/lib/libCB.so|d5c706d02ac289542a1a3cd02c578ed690b6eaf4
-vendor/lib/libOpenCL.so|fd7559d43657e3e8b3b5b4c46613f17f2865ce57
-vendor/lib/libRSDriver_adreno.so|03cd2143301033c96793d65343ed12a96173d353
-vendor/lib/libadreno_utils.so|179e0e9d7115129980876abfe7623af644ffb243
-vendor/lib/libbccQTI.so|131cc7db5fe13b60277e3c993cf493d81f041eb2
-vendor/lib/libc2d30_bltlib.so|938cffcfc4dae4b90a875bbbf04e128bf2350b08
-vendor/lib/libgsl.so|ac63f06c0eafae2a4abfce97ecfefceeb0ac7d7d
-vendor/lib/libllvm-glnext.so|5289d8c4c600de062569d2dfea81ed2ad9b2a8d5
-vendor/lib/libllvm-qcom.so|75c509b62e29d4c33f7c93975614a3f8d2fbb30b
-vendor/lib/libpvr.so|78adbda9057d2bed6aa556a28e345f062bf1169d
-vendor/lib/librs_adreno.so|361de6afe5421246d4910b2e9e568e7dfc3d7e4b
-vendor/lib/librs_adreno_sha1.so|959b4acd0a63ac80b925eced44aa7f0976884fa1
-vendor/lib64/egl/eglSubDriverAndroid.so|e83b41438c485f909e20f2f9023dfdc4ead59254
-vendor/lib64/egl/libEGL_adreno.so|0708871b8022100266143afe86795d730edde45b
-vendor/lib64/egl/libGLESv1_CM_adreno.so|05650dc41a03e98ad0a9f7f37c90df53c2e75606
-vendor/lib64/egl/libGLESv2_adreno.so|bec22a88fb6e61c36229c97ff434b2b4cf3eb175
-vendor/lib64/egl/libQTapGLES.so|e8b51af9542d3b41c79b69163732d4386ad07aee
-vendor/lib64/egl/libq3dtools_adreno.so|ecf0fd2df00aa673373b9965c426e04bb30760d5
-vendor/lib64/egl/libq3dtools_esx.so|90fce574018866d1099ee4918940350a71aa7782
-vendor/lib64/libC2D2.so|ce0aceb5116cea71454c5313f661c5d042eeb218
-vendor/lib64/libCB.so|65dd12e02813f3c2eade3e19e8ffbf289dc8de5f
-vendor/lib64/libOpenCL.so|21897637e702c4a97eb748934e9f1fc8880881c5
-vendor/lib64/libRSDriver_adreno.so|69cdad43c1ffdcfd7a610e7a659737c171e1493a
-vendor/lib64/libadreno_utils.so|a732da174c5f9714e494882cc6a1984548492757
-vendor/lib64/libbccQTI.so|d4732f569f53d0152bcb824d94819c7b183a7a8b
-vendor/lib64/libc2d30_bltlib.so|254b4b60fe1795188628ab4d156b9656af79c776
-vendor/lib64/libgsl.so|c10b7606da2926abd59161243a1d404963e341dc
-vendor/lib64/libllvm-glnext.so|6175b85f148444c2e2f9d6396b0bb78470371750
-vendor/lib64/libllvm-qcom.so|40555ee894fb7aef442b74d4a7d995b7c1e61303
-vendor/lib64/libpvr.so|55ad310d84bb60bb761a2396fdc5ace4564c9b0a
-vendor/lib64/librs_adreno.so|c84431c31efd21b30d95ebe9ea3dc4792f0de4ac
-vendor/lib64/librs_adreno_sha1.so|df03717b40ad5457dbf9234ce4475129f83aff92
+# Graphics - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/lib/egl/eglSubDriverAndroid.so|fdd661b92a81c0d12f087e4daa732680a7027df7
+vendor/lib/egl/libEGL_adreno.so|f836c5c1eaa8373d7847dd126e0f0ea82e473f16
+vendor/lib/egl/libGLESv1_CM_adreno.so|4c2cd7ef5858e14a2e116feb765d47b011954e96
+vendor/lib/egl/libGLESv2_adreno.so|5160a66e4f6a5d4076df6274cbaaefff62520496
+vendor/lib/egl/libQTapGLES.so|01513864db7478637c94f31b547d1e9c7b389da1
+vendor/lib/egl/libq3dtools_adreno.so|6276d79737358fe27836d41a4aca3d8e9f2b76df
+vendor/lib/egl/libq3dtools_esx.so|0b6c3c2a50e0c9de730fc74786a64cd62b6989d2
+vendor/lib/libC2D2.so|a89c611c33d136ac335f8ab077a4dd9ab16722a6
+vendor/lib/libCB.so|a149d8cf839ee09c8006fd9544db4bb341bae0cd
+vendor/lib/libOpenCL.so|df83abbc452249d07b52bf67c1c9b537c76019af
+vendor/lib/libRSDriver_adreno.so|f7234dc9ce8e5abe3898ddeb6d1106d1100b66ef
+vendor/lib/libadreno_utils.so|de54930ce9fc6e13de930aa7a942967828fe4daf
+vendor/lib/libbccQTI.so|3e0a4fe0242a797a19a70b282fe0cf0bd1ce75da
+vendor/lib/libc2d30_bltlib.so|0ecaba6ce84154d88c0df57a235609ecd98d6f6d
+vendor/lib/libgsl.so|3e4b1cf25084af432e56cd9f6c531aa09492b9df
+vendor/lib/libllvm-glnext.so|b8f3faa6192e21749c5bb55bbd9fbe51b3502f79
+vendor/lib/libllvm-qcom.so|a287c1b2a3024da72f0665d6434844fcf2439eeb
+vendor/lib/libpvr.so|b136124b70c996aedc269580088b15a86d8152bb
+vendor/lib/librs_adreno.so|81ac0aaaf36c049113e1dec7640d962a07e07f7f
+vendor/lib/librs_adreno_sha1.so|ca3051d0730a23e029573fb27d4618c76d5a2fca
+vendor/lib64/egl/eglSubDriverAndroid.so|ca30ccf7aea7fcc032b5ec6e8ab92ba4cfb5af76
+vendor/lib64/egl/libEGL_adreno.so|f6421b5c8cfbd496d51feee321d93cfcaa395298
+vendor/lib64/egl/libGLESv1_CM_adreno.so|d8de942d91e7e1a87ee3388911c2e8eaf13c76ef
+vendor/lib64/egl/libGLESv2_adreno.so|815803c959cbe38498fc78d046a154661838942e
+vendor/lib64/egl/libQTapGLES.so|e060cdc619053569470859626aa2a41b61da9227
+vendor/lib64/egl/libq3dtools_adreno.so|1d02e38fa7ca54d41b35b9f65b7b823ccc749336
+vendor/lib64/egl/libq3dtools_esx.so|e77ffc3f035e9f91890acd222dc96754a771afd0
+vendor/lib64/libC2D2.so|63b0a96005bb60bc273fb6d1cdd99bf60dfe1af4
+vendor/lib64/libCB.so|b1cd0604f6422fef3b79e0cee24c91ca6c91218f
+vendor/lib64/libOpenCL.so|b7fc263c86db38668e54570616fcadcfacbbd33d
+vendor/lib64/libRSDriver_adreno.so|4fc43018fbf0c8c0648b956211fbe2189fdecff4
+vendor/lib64/libadreno_utils.so|a06c33ca9f010e3ca3b2af08fc3a854f6402ea89
+vendor/lib64/libbccQTI.so|2105f35a46f936940e124ddba3d4bcf3c7162404
+vendor/lib64/libc2d30_bltlib.so|257612866c2c6fa45847dac0252f2d50c1a74f3b
+vendor/lib64/libgsl.so|1231cdab03be3c97cff2a0ac907d2ccc5d6bcd31
+vendor/lib64/libllvm-glnext.so|45d47539bf7a60fe7c55970684ba234e145be381
+vendor/lib64/libllvm-qcom.so|30e26aa99a4051b3c6dfc02a4a71686d0aefe6d8
+vendor/lib64/libpvr.so|47e3c25f30a05c7ee09249556b4b9f3c42274956
+vendor/lib64/librs_adreno.so|9fd579685953efba80e14162a8527375ef0f17b1
+vendor/lib64/librs_adreno_sha1.so|632cbc71a48b78cc4667ae8a8a51457bf1104873
 
-# Graphics (HDR) - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/libhdr_tm.so|fffd91bcfe1b9ae33498624e3e36b46364bf7991
-vendor/lib64/libhdr_tm.so|103b2f0893a767f162ffc2945b5edea062fb0354
+# Graphics (HDR) - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/lib/libhdr_tm.so|16dd863f092e23e19aa5c1b3f0b4181d59195b94
+vendor/lib64/libhdr_tm.so|a8538faa77fa5d2b6e8210daaefe5267d9eb43a0
 
-# Graphics (Vulkan) - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/hw/vulkan.trinket.so|f4ebce41a1f7fad72250b19a133fb5630601caaa
-vendor/lib64/hw/vulkan.trinket.so|a6353fe423bbe2a273a2639bb79708f385863845
+# Graphics (SDM) - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+-vendor/lib/libsdm-disp-vndapis.so|9e89df495bf8e6f379e913f149ce978850443992
+-vendor/lib64/libsdm-disp-vndapis.so|5872d39e03468bb5fd8d0121373b3341c4c34138
+vendor/lib/libdpps.so|50bed8a4bbe2fb0130abfb5711d4b7648a88dbe5
+vendor/lib/libqseed3.so|2bedfc7bf3968a4153f3516cd2b644b251eb718e
+vendor/lib/libsdm-color.so|a7aacaa7294490b37322bc7c2e220231dd60def4
+vendor/lib/libsdm-diag.so|f0e47cdb8c118dbbfb32a728644c8f655f6f0a27
+vendor/lib/libsdmextension.so|dec8f2fd565864975042790fc48f5dda852c49bf
+vendor/lib/libtinyxml2_1.so|f54f81359c78715315bc24678c34c129413e6c92
+vendor/lib64/libdpps.so|1f035dd0d42efbfb64349d7849f9f482e5c0287d
+vendor/lib64/libqseed3.so|9c6d67741570d8b52adc87ba876c5578f0ec9e91
+vendor/lib64/libsdm-color.so|d7e0b410cecdcd88d504f374500a0313b2e21f0d
+vendor/lib64/libsdm-diag.so|5b3176953a3b439dd36d35a6fdd8a1e52735cc87
+vendor/lib64/libsdmextension.so|a5e8b6c7a337ac73f4b132a863ebe7b9e52de1ed
+vendor/lib64/libtinyxml2_1.so|d87dfed7c044e24c90fe4ae9fcd9b3812f432ff4
+
+# Graphics (Vulkan) - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/lib/hw/vulkan.trinket.so|ec434cfa02cbb6b783a74d6c9518451e8126fe2f
+vendor/lib64/hw/vulkan.trinket.so|7de77bf67c85334dda4e01805e5170b4a4609fb3
 
 # IO Prefetcher - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|98c38e3647a6c286e5bfb8b271827328f6c04148
@@ -582,39 +632,38 @@ vendor/lib64/libmlipay.so|8510d27c292ca9077704724564b635978c0992b9
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|43cae59576c8570a37bbf9d4a059b5e9c207360d
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|521357ee808c1a248db9e76269880b1f9d0a0617
 
-# Perf - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|1bfabae277be75c5caa2946868ca8d88ff05467f
-vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
+# Perf - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|2f8f83abe95d11fa48b866b07b5d3cc44ad0ae5f
+vendor/bin/msm_irqbalance|54c73b55125b13fa40abf3852bfae31bc217eddc
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|0101a3294311c2988060a00f7b25d8abf2f428f9
-vendor/etc/lm/AdaptLaunchFeature.xml|21c91f86ed80b4ca513d68b8fca6754ffd31395d
-vendor/etc/lm/AppClassifierFeature.xml|102e4291357dd384c0f474d4192370e25123c5e7
-vendor/etc/lm/GameOptimizationFeature.xml|de0bd5be9e1f6ad936fb817fa2ff745a8ca94fd4
-vendor/etc/perf/commonresourceconfigs.xml|7bf6b442875ec6244db05ffcc2ebb85a1c370863
-vendor/etc/perf/perfboostsconfig.xml|7a54775a61ec9b9af4a224a628ac5f697a89cdc9
-vendor/etc/perf/perfconfigstore.xml|afb6ef1b9891d979a01867fbb38546ac303037e1
+vendor/etc/lm/AdaptLaunchFeature.xml|ad4516342729e79a8914762c2737f7faa08b1e9d
+vendor/etc/lm/AppClassifierFeature.xml|69baba75bf7880a3bac99a9aefa2f97a047e9eea
+vendor/etc/lm/GameOptimizationFeature.xml|df9720376ef888a48882d5e27d453204230b5d8d
+vendor/etc/perf/commonresourceconfigs.xml|cf2a4ad135e2c9e3e72ffeb090542c991c8b7ec2
+vendor/etc/perf/perfboostsconfig.xml|f23b2d4cf480e519ca6ca8a880f7696ee534f484
+vendor/etc/perf/perfconfigstore.xml|1c92e3aed456c40300eb3f25177dd6272715d299
 vendor/etc/perf/targetconfig.xml|c5d0434e8e80a11c59dd841c12be2b61b7f98ed3
 vendor/etc/perf/targetresourceconfigs.xml|357b35d7ecfe2259447d2d27a9c8b0b63da0594f
-vendor/etc/perf/thermalboost.conf|3a70ac91160e48a64578f0b7775798f19040e87d
-vendor/lib/libperfconfig.so|645d5170d7cd9413604ae756cd5ec383ca7e5092
-vendor/lib/libperfgluelayer.so|dfabc7c38f54f0aba2a0ea7fbe6cd5c3822cee2d
-vendor/lib/libqti-perfd-client.so|c94451c1a19d460c6b919cb5ff84c76946a6d399
-vendor/lib/libqti-perfd.so|772c1ba40b382be233b7d756e2de65cf90f4b7df
-vendor/lib/libqti-util.so|2c3fdef8f812e5541634b17255480baa6a1f8650
-vendor/lib/libqti-utils.so|81d3d40097615baad8ff77a6ba3e6ec0706b4d71
-vendor/lib/vendor.qti.hardware.perf@2.0.so|79b74df48e39d46038b5ba13e7a0ae3513364a10
-vendor/lib64/libadaptlaunch.so|3d0d481af1112df5a5cc5eff886fad9d5d334c58
-vendor/lib64/libappclassifier.so|da027fb34f7c6ce67999b64810e231943b052278
-vendor/lib64/libgameoptfeature.so|b82be985421dd21bb25ed217f762e3955db16765
-vendor/lib64/liblearningmodule.so|d7a76fc9e48af3bf30dc928c80f71b7517793024
-vendor/lib64/libmeters-ns.so|73f78b3461a4cbee6419721149dd95fec9029f8b
-vendor/lib64/libmeters.so|5a518301ad77996a47c9c893093f2c2f36085ded
-vendor/lib64/libperfconfig.so|6b7535b00836fe98ff330864740b5bba293c8e87
-vendor/lib64/libperfgluelayer.so|b8d4864e2bc3b903e1a0d9c548686e5fac81fe54
-vendor/lib64/libqti-perfd-client.so|9db27376ef994c4c90eb90dc3c7c4e493c2902e4
-vendor/lib64/libqti-perfd.so|51b81ed5a4f6bdeb299e364e9d4c3dc80bba4d11
-vendor/lib64/libqti-util.so|c78b855b3909b01071ced5fc898add769de4a5b6
-vendor/lib64/libqti-utils.so|3726d65486928bc014e657960dc023d920524922
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|3717b35807fd7b33dced6e311c3b609d57399363
+vendor/lib/libperfconfig.so|d158eb9acd941c17bdff23c1968d488402604fcc
+vendor/lib/libperfgluelayer.so|b0868dc48c412b51a410e264477fac06ec276891
+vendor/lib/libqti-perfd-client.so|ee954f9709cebc46f0f583326e4cad8a45a248c5
+vendor/lib/libqti-perfd.so|32946baf2a2c04bfd0425453b2327d0df93e3b83
+vendor/lib/libqti-util.so|e7882172095bb0df546d4c358744761aba932b5a
+vendor/lib/libqti-utils.so|81cff03510772c85807b880103ff1428a562e7ad
+vendor/lib/vendor.qti.hardware.perf@2.0.so|2bd82bb06e4651d59ecc7433680fabbde5173643
+vendor/lib64/libadaptlaunch.so|25b68340a9d30f5495088ee0109d82f8d1337e03
+vendor/lib64/libappclassifier.so|6af2457030996a68f921852354ef45de03627e14
+vendor/lib64/libgameoptfeature.so|04df0ffaee8c5676cc86a236d875d99fa5409b4b
+vendor/lib64/liblearningmodule.so|8eedde058c8a40239cdf24500525505663090dd3
+vendor/lib64/libmeters-ns.so|628c93909e0f311fdec4bbbebfaf03865b213df8
+vendor/lib64/libmeters.so|3dd613b5cea7f023189f4fd6ef0a0c23df213a87
+vendor/lib64/libperfconfig.so|9af5b37de4dffdccd86d03207ec0698611dc58a5
+vendor/lib64/libperfgluelayer.so|a1b53349bcd3783b2d8dcf680400fec80a09b9ab
+vendor/lib64/libqti-perfd-client.so|941da516c48d801041ee229f9b87c809c7969aae
+vendor/lib64/libqti-perfd.so|8f4b6de8301b95d40942b4d28b647b348a7e559b
+vendor/lib64/libqti-util.so|a8d68967fedf87d569b15d30b93f814f152f9fe7
+vendor/lib64/libqti-utils.so|12badf9a19f7708be0012979eb9fe5d3afeb446d
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|5126e4795575b543c133af640e806de3310c5079
 
 # Peripheral manager - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/pm-proxy|4200aecba89950e684d284b521a0896347b59487
@@ -622,29 +671,29 @@ vendor/bin/pm-service|0115038b692a2914e28df8b250689306887e2d9b
 vendor/lib/libperipheral_client.so|7ef98f63b1cec72113f7c2193bc4e8ff523f7503
 vendor/lib64/libperipheral_client.so|179a96f4e443c754fd70ff4e0c3c76b71047836c
 
-# Qualcomm Display Utils - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|680370eae4858b06e5be5d3380bdebd0d8b13b8d
+# Qualcomm Display Utils - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
+vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|d236c57ce1d2747e942beecdca006798e22cc285
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|9aa1eacb0880e2cf95f3745f13b1e2222dceb562
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|f227ee67b99082b8aeea5ef9830a3c23efc7e4c6
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|ea25038448692ee9fe7b6a498e54654ce0928ccd
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|0f47d6cf21bea16c61587f706f3c9d774064b79a
 
-# Postprocessing - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+# Postprocessing - from laurel_sprout-user 10 QKQ1.190910.002 V11.0.8.0.QFQMIXM
 product/lib64/vendor.display.color@1.0.so|e90c75046ba1f6f677b9f719caaae8d91d1a5cde
-vendor/bin/hw/vendor.display.color@1.0-service|ab46995540bd4721e1241de17241e55dbbd5435c
+vendor/bin/hw/vendor.display.color@1.0-service|2d708de4ef2af398e3a5470a42d103125a80f1fb
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib/libdisp-aba.so|95e3dbcf26416500a23ceac04e6b1b881a9204ba
-vendor/lib/libdisplayqos.so|80763104cc5296cfc1ee98956877ad57838d871b
-vendor/lib/vendor.display.color@1.0.so|1c6cdfd0be07497fd82c509b0e8d43eb1b2516c3
-vendor/lib/vendor.display.color@1.1.so|1db61e68a6fe9e99debc63a00d68e665564881d5
-vendor/lib/vendor.display.color@1.2.so|df54fd87747b8b78c73b18e9426e28d668e790ce
-vendor/lib/vendor.display.postproc@1.0.so|d51673718da0fe3437f87bd8b223885f0ccf03d6
-vendor/lib64/libdisp-aba.so|3a35a8c7120d5f0748b4584dd56b1398d1acdd69
-vendor/lib64/libdisplayqos.so|b67d8ba7846f4dfeef4fecb805c0273b040db3b3
-vendor/lib64/vendor.display.color@1.0.so|3939e4d1ab4f74e6bbd04524a9e6211ade9c5d0b
-vendor/lib64/vendor.display.color@1.1.so|ce0030a7e6593236277962ffff290b834eaf1f25
-vendor/lib64/vendor.display.color@1.2.so|6adfa77494dbad3be8a34b259b25f8a4d9dd6a04
-vendor/lib64/vendor.display.color@1.3.so|906603578d0b833d990a50bff62f36a0fc186f85
-vendor/lib64/vendor.display.postproc@1.0.so|0b578a42706c770c6c61eccdee8a9e4c89c08b10
+vendor/lib/libdisp-aba.so|dc24e2943b50dc62833043fdf757ec0b90447eb6
+vendor/lib/libdisplayqos.so|097a0921d624c374735aef290b66f2429d7d6cd2
+vendor/lib/vendor.display.color@1.0.so|c11d6fc47fb8fa685241e6ec6142b8ea66f5e8e9
+vendor/lib/vendor.display.color@1.1.so|00100de13261d5a0bb0ff6488d9392f6b9de81ef
+vendor/lib/vendor.display.color@1.2.so|eede64266c6270e3c0a13ce6b888c2c6edc4bad1
+vendor/lib/vendor.display.postproc@1.0.so|5bb4ce086b76370dcec4489474dc7f00cc526dd4
+vendor/lib64/libdisp-aba.so|592b00db6d77a6f0145999feb872614d4cbb961f
+vendor/lib64/libdisplayqos.so|1337ca12244f40332e5b6c40640c0ebffa0ebb0f
+vendor/lib64/vendor.display.color@1.0.so|09c0db4755ec4d85ab163de908c55104f7d4771d
+vendor/lib64/vendor.display.color@1.1.so|66531520f99cc4b113c8b1fad55dcd9284bf9124
+vendor/lib64/vendor.display.color@1.2.so|b65aea5c3b642db0446f579e6226f7f16c158471
+vendor/lib64/vendor.display.color@1.3.so|1ca910335e40de56ce7205cc69d0b25be9f055a2
+vendor/lib64/vendor.display.postproc@1.0.so|94a066d92a21a16cf6aa701e0e1528de94a1a161
 
 # QMI - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
