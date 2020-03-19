@@ -183,8 +183,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml \
     libvulkan \
-    vendor.display.config@1.8 \
-    vendor.display.config@1.8.vendor
+    vendor.display.config@1.10 \
+    vendor.display.config@1.10.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
